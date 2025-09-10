@@ -8,7 +8,7 @@ WORKDIR /app
 COPY src/Main.java /app/Main.java
 
 #Compile the app code
-RUN javac src/Main.java
+RUN javac Main.java
 
 #run the app
 CMD ["java","Main"]
